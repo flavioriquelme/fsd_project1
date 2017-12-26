@@ -55,7 +55,7 @@ chinese_take_away = media.Movie(
 secreto_de_sus_ojos = media.Movie(
     "El Secreto de Sus Ojos",
     "El Secreto de Sus Ojos",
-    "https://upload.wikimedia.org/wikipedia/pt/9/91/Cartel-nuevo-de-el-secreto-de-sus-ojos.jpg",
+    "https://upload.wikimedia.org/wikipedia/pt/9/91/Cartel-nuevo-de-el-secreto-de-sus-ojos.jpg",  # noqa
     "https://www.youtube.com/watch?v=GqdLlefQ8gU"
     )
 
@@ -65,6 +65,6 @@ movie_page_list = [
     school_of_rock, chinese_take_away, secreto_de_sus_ojos
     ]
 
-# Open the movies page located at fresh_tomatoes file, 
+# Open the movies page located at fresh_tomatoes file,
 # providing the list of movies
 fresh_tomatoes.open_movies_page(movie_page_list)
