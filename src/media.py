@@ -12,7 +12,7 @@ class Movie():
 
     """
 
-    def __init__(self, movie_title, movie_storyline, 
+    def __init__(self, movie_title, movie_storyline,
                  movie_poster_url, movie_trailer_url):
         self.title = movie_title
         self.storyline = movie_storyline
@@ -23,6 +23,6 @@ class Movie():
         """Class method show_trailer.
 
         Opens a web browser tab on provided attribute trailer_url.
-    
+
         """
         webbrowser.open(self.trailer_youtube_url)
